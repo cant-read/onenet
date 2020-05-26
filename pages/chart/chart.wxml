@@ -1,0 +1,7 @@
+<text>湿度折线图</text>
+<canvas class = "canvas" id="chart1"
+canvas-id="humidity"></canvas>
+<text>----------------------------------------------</text>
+<text>温度折线图</text>
+<canvas class = "canvas" id="chart3"
+canvas-id="tempe"></canvas>

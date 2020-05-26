@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<view class='container'>
+  <text class="fontclass">温度是：{{temperature}}℃</text>
+    <text class="fontclass">湿度是：{{humidity}}</text>
+  <text class="fontclass">设备状态：{{flag}}</text>
+  <image src='/image/bg.png' mode="aspectFill" class="imageclass"></image>
+  <button  bindtap="navigate">查看详细信息</button>
+</view>
+
+<popup id='popup' title = '警告' content='火警！火警！火警！' btn_no='知道了' bind:error ='closePopup'>
+</popup>
+<popup id='popup1' title = '提示' content='温度即将达到临界' btn_no='知道了' bind:error ='closePopup1'>
+</popup>
+<popup id='popup2' title = '提示' content='湿度即将达到临界' btn_no='知道了' bind:error ='closePopup1'>
+</popup>
